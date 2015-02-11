@@ -12,14 +12,13 @@ public class GameController : MonoBehaviour
 
     void OnGUI()
     {
-        if (Application.loadedLevel == 0)
-        {
+        
             if (GUI.Button(new Rect(Screen.width / 2 - 40, Screen.height / 2 - 10, 80, 20), "Start"))
             {
                 Application.LoadLevel("GameScene");
                 DontDestroyOnLoad(GameInfo.Instance);
             }
-        }
+        
     }
 
     // Update is called once per frame
@@ -33,6 +32,7 @@ public class GameInfo : Singleton<GameInfo>
         if(Input.GetMouseButtonDown(1))
         {
             Application.LoadLevel(0);
+            Application.CaptureScreenshot("Screen.png");
         }
     }
 

@@ -27,3 +27,6 @@ D:\Programming\DZEN\GestureProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\D
 D:\Programming\DZEN\GestureProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.csproj.GenerateResource.Cache
 D:\Programming\DZEN\GestureProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.exe
 D:\Programming\DZEN\GestureProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.pdb
+D:\Programming\DZEN\TestProject\ContourAnalysis\ContourAnalysisDemo\bin\Debug\ContourAnalysisDemo.exe.config
+D:\Programming\DZEN\TestProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.exe
+D:\Programming\DZEN\TestProject\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.pdb
