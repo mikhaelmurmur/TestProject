@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{468D7904-6F1D-CE03-C05A-AA932B711F89}</ProjectGuid>
+	<ProjectGuid>{D83B6264-86B7-72D4-AB6C-20197D38569B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,13 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\003 Drawing Lines\src\LinesGL.cs" />
-     <Compile Include="Assets\003 Drawing Lines\src\LinesGR.cs" />
-     <Compile Include="Assets\003 Drawing Lines\src\LinesLR.cs" />
-     <Compile Include="Assets\Scripts\Drawing.cs" />
-     <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\Singleton.cs" />
-     <None Include="Assets\003 Drawing Lines\src\BlackLine.shader" />
+     <Compile Include="Assets\Scripts\script.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
