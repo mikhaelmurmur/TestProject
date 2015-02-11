@@ -1,0 +1,5 @@
+D:\Programming\DZEN\GestureProject\ContourAnalysis\CA\bin\Debug\ContourAnalysis.dll
+D:\Programming\DZEN\GestureProject\ContourAnalysis\CA\bin\Debug\ContourAnalysis.pdb
+D:\Programming\DZEN\GestureProject\ContourAnalysis\CA\obj\Debug\ContourAnalysis.csprojResolveAssemblyReference.cache
+D:\Programming\DZEN\GestureProject\ContourAnalysis\CA\obj\Debug\ContourAnalysis.dll
+D:\Programming\DZEN\GestureProject\ContourAnalysis\CA\obj\Debug\ContourAnalysis.pdb
