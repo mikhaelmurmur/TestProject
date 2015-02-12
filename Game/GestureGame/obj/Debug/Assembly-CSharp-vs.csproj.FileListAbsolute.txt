@@ -19,6 +19,5 @@ D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\Mono.Cecil.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\nunit.framework.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\Unity.DataContract.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp.pdb
