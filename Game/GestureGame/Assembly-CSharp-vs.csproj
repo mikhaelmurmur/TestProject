@@ -50,6 +50,7 @@
      <Compile Include="Assets\003 Drawing Lines\src\LinesGR.cs" />
      <Compile Include="Assets\003 Drawing Lines\src\LinesLR.cs" />
      <Compile Include="Assets\Scripts\Drawing.cs" />
+     <Compile Include="Assets\Scripts\Drawing_v2.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <None Include="Assets\003 Drawing Lines\src\BlackLine.shader" />
