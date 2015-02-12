@@ -6,12 +6,14 @@ public class Drawing : MonoBehaviour
 {
 
     bool is_pressed = false;
-    LineRenderer lineRenderer;
+    LineRenderer line_renderer;
     Vector3 tmp_mouse_position;
     void Start()
     {
         tmp_mouse_position = Input.mousePosition;
-        lineRenderer = GetComponent<LineRenderer>();
+        line_renderer = GetComponent<LineRenderer>();
+        line_renderer.SetWidth(1, 1);
+        line_renderer.SetColors(Color.red, Color.red);
     }
 
 
@@ -24,20 +26,6 @@ public class Drawing : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                //tmp_mouse_position = Input.mousePosition;
-                //list_of_segments_of_line.Add(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1));
-                //lineRenderer = gameObject.GetComponent("LineRenderer") as LineRenderer;
-                //int i = 0;
-                //lineRenderer.SetVertexCount(list_of_segments_of_line.Count);
-                //foreach (Vector3 v in list_of_segments_of_line)
-                //{
-                //    lineRenderer.SetPosition(i, v);
-                //    i++;
-                //}
-
-                //lineRenderer.SetWidth(1, 1);
-                //lineRenderer.SetColors(Color.red, Color.red);
-
                 tmp_mouse_position = Input.mousePosition;
                 is_pressed = true;
                 list_of_segments_of_line = new List<Vector3>();
@@ -52,17 +40,14 @@ public class Drawing : MonoBehaviour
                 {
                     tmp_mouse_position = Input.mousePosition;
                     list_of_segments_of_line.Add(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1));
-                    lineRenderer = gameObject.GetComponent("LineRenderer") as LineRenderer;
+                    line_renderer = gameObject.GetComponent("LineRenderer") as LineRenderer;
                     int i = 0;
-                    lineRenderer.SetVertexCount(list_of_segments_of_line.Count);
+                    line_renderer.SetVertexCount(list_of_segments_of_line.Count);
                     foreach (Vector3 v in list_of_segments_of_line)
                     {
-                        lineRenderer.SetPosition(i, v);
+                        line_renderer.SetPosition(i, v);
                         i++;
                     }
-
-                    lineRenderer.SetWidth(1, 1);
-                    lineRenderer.SetColors(Color.red, Color.red);
                 }
                 else
                 {
@@ -74,7 +59,7 @@ public class Drawing : MonoBehaviour
             {
                 if(Input.GetButtonUp("Fire1"))
                 {
-                    Debug.Log("YES");
+                    Debug.Log("YES");   
                     is_pressed = false;
                 }
             }
