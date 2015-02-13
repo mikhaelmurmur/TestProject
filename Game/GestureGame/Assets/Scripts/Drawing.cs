@@ -19,7 +19,7 @@ public class Drawing : MonoBehaviour
 
 
     List<Vector3> list_of_segments_of_line = new List<Vector3>();
-
+    public Camera cam;
     void Update()
     {
         if (!is_pressed)
@@ -29,7 +29,8 @@ public class Drawing : MonoBehaviour
                 tmp_mouse_position = Input.mousePosition;
                 is_pressed = true;
                 list_of_segments_of_line = new List<Vector3>();
-                list_of_segments_of_line.Add(new Vector3(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2, 1));
+                Vector3 p = cam.ScreenToWorldPoint(Input.mousePosition);
+                list_of_segments_of_line.Add(new Vector3(p.x, p.y, 1));
             }
         }
         else
@@ -38,9 +39,9 @@ public class Drawing : MonoBehaviour
             {
                 if (!Input.GetButtonUp("Fire1"))
                 {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     tmp_mouse_position = Input.mousePosition;
-                    list_of_segments_of_line.Add(new Vector3(Input.mousePosition.x-Screen.width/2, Input.mousePosition.y-Screen.height/2, 1));
+                    Vector3 p = cam.ScreenToWorldPoint(Input.mousePosition);
+                    list_of_segments_of_line.Add(new Vector3(p.x, p.y, 1));
                     line_renderer = gameObject.GetComponent("LineRenderer") as LineRenderer;
                     int i = 0;
                     line_renderer.SetVertexCount(list_of_segments_of_line.Count);
