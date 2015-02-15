@@ -27,7 +27,8 @@ namespace TemplateManager
 
         private void AddNewTemplate(object sender, RoutedEventArgs e)
         {
-
+            AddMenu w = new AddMenu();
+            w.Show();
         }
 
         private void DeleteTemplate(object sender, RoutedEventArgs e)

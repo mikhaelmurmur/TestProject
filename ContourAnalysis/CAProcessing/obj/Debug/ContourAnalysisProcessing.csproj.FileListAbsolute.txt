@@ -17,10 +17,7 @@ D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\Emgu.Util
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\opencv_core220.dll
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\opencv_highgui220.dll
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\opencv_imgproc220.dll
-D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\ContourAnalysisProcessing.dll
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\ContourAnalysisProcessing.pdb
-D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\ContourAnalysis.dll
-D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\bin\Debug\ContourAnalysis.pdb
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\obj\Debug\ContourAnalysisProcessing.csprojResolveAssemblyReference.cache
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\obj\Debug\ContourAnalysisProcessing.dll
 D:\Programming\DZEN\TestProject\ContourAnalysis\CAProcessing\obj\Debug\ContourAnalysisProcessing.pdb
