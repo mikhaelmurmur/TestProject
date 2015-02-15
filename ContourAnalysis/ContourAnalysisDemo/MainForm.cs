@@ -59,6 +59,7 @@ namespace ContourAnalysisDemo
             {
                 using(FileStream fs = new FileStream(fileName, FileMode.Open))
                     processor.templates = (Templates)new BinaryFormatter().Deserialize(fs);
+                
             }
             catch (Exception ex)
             {
