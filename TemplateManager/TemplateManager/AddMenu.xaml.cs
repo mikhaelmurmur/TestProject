@@ -25,6 +25,11 @@ namespace TemplateManager
     {
         ImageProcessor processor = new ImageProcessor();
         Image<Bgr, Byte> frame;
+        Templates templates;
+        Templates samples;
+        public Template selectedTemplate;
+        Bitmap bmp;
+
 
         public AddMenu()
         {
@@ -42,12 +47,52 @@ namespace TemplateManager
                 iTemplate.Source = imageSource;
                 Capture capture = new Capture(dlg.FileName);
                 processor.ProcessImage(capture.QueryFrame());
-                int i= processor.contours.Count;
+                ShowContours(processor.templates, processor.samples, frame);
             }
             else
             {
                 //No file
             }
+        }
+
+        private void ShowContours(Templates templates, Templates samples, IImage image)
+        {
+           
+            
+        }
+
+        private void dgTemplatese_AddingNewItem(object sender, AddingNewItemEventArgs e)
+        {
+            //this.templates = templates;
+            //this.samples = samples;
+
+            this.samples = new Templates();
+            foreach (var sample in samples)
+                this.samples.Add(sample);
+            int i=0;
+
+            Template template = samples[dgTemplatese.Items.Count];
+
+            Graphics gr;
+
+            dgTemplatese.ro
+
+            System.Drawing.Rectangle r = new System.Drawing.Rectangle(dgTemplatese.Items);
+            
+            var rect = new System.Drawing.Rectangle(e.CellBounds.X, e.CellBounds.Y, (e.CellBounds.Width - 24) / 2, e.CellBounds.Height);
+            rect.Inflate(-20, -20);
+            System.Drawing.Rectangle boundRect = template.contour.SourceBoundingRect;
+            float k1 = 1f * rect.Width / boundRect.Width;
+            float k2 = 1f * rect.Height / boundRect.Height;
+            float k = Math.Min(k1, k2);
+
+            gr.DrawImage(bmp,
+                new System.Drawing.Rectangle(rect.X, rect.Y, (int)(boundRect.Width * k), (int)(boundRect.Height * k)),
+                boundRect, GraphicsUnit.Pixel);
+
+
+            template.Draw(gr, e.CellBounds);
+            
         }
 
     }

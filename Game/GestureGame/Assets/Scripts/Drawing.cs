@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+
 
 public class Drawing : MonoBehaviour
 {
@@ -8,11 +10,14 @@ public class Drawing : MonoBehaviour
     bool is_pressed = false;
     LineRenderer line_renderer;
     Vector3 tmp_mouse_position;
+    public GameObject template_image;
+    public static GameMech gm;
+
     void Start()
     {
         tmp_mouse_position = Input.mousePosition;
         line_renderer = GetComponent<LineRenderer>();
-        line_renderer.SetWidth(1, 1);
+        line_renderer.SetWidth(2, 2);
         line_renderer.SetColors(Color.red, Color.red);
     }
 
@@ -20,8 +25,35 @@ public class Drawing : MonoBehaviour
 
     List<Vector3> list_of_segments_of_line = new List<Vector3>();
     public Camera cam;
+
+
+
+    bool is_screen_captured = false;
+
+
+
     void Update()
     {
+        if(is_screen_captured)
+        {
+            if (File.Exists(Application.dataPath + "/tmp.jpg"))
+            {
+                template_image.GetComponent<SpriteRenderer>().sprite = null;   
+                is_screen_captured = false;
+                if (GameMech.IsRightShape(Application.dataPath + "/tmp.jpg"))
+                {
+                    Debug.Log("YUPI");
+                    gm.NewRound();
+                }
+                else
+                {
+                    Debug.Log("BAD");
+
+                    gm.NewRound();
+                }
+            }
+            
+        }
         if (!is_pressed)
         {
             if (Input.GetMouseButtonDown(0))
@@ -53,19 +85,30 @@ public class Drawing : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log(Input.GetButtonUp("Fire1"));
+
                     is_pressed = false;
                 }
             }
             else
             {
-                if(Input.GetButtonUp("Fire1"))
+                if (Input.GetButtonUp("Fire1")&&(!is_screen_captured))
                 {
-                    Debug.Log("YES");   
+                     if (File.Exists(Application.dataPath + "/tmp.jpg"))
+                    {
+                        File.Delete(Application.dataPath + "/tmp.jpg");
+                    }
+                    Application.CaptureScreenshot("Assets/tmp.jpg");
+                    is_screen_captured = true;
+                    
+                   
                     is_pressed = false;
                 }
             }
 
         }
     }
+
+
+
+
 }

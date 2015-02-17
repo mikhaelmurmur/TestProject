@@ -21,3 +21,10 @@ D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\Unity.DataContra
 D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp.dll
 D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp.pdb
+D:\Programming\DZEN\TestProject\Game\GestureGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.dll
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.Fuzzy.dll
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.Imaging.dll
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.Imaging.Formats.dll
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.Imaging.IPPrototyper.dll
+D:\Programming\DZEN\TestProject\Game\GestureGame\Temp\bin\Debug\AForge.Math.dll
