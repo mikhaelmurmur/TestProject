@@ -1,0 +1,60 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 520MX (ID=0x1051)
+    Vendor:   NVIDIA
+    VRAM:     977 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Fuzzy.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Fuzzy.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.Formats.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.Formats.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.IPPrototyper.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Imaging.IPPrototyper.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Math.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\AForge.Math.dll into Unity Child Domain
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\System.Drawing.dll into Unity Child Domain
+- Completed reload, in  0.081 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Programming\DZEN\TestProject\Game\GestureGame\TestGame_Data\Managed\System.dll (this message is harmless)
+[Singleton] An instance of GameInfo is needed in the scene, so '(singleton) GameInfo (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.870884 ms
+3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 146.
+Total: 0.604242 ms (FindLiveObjects: 0.009835 ms CreateObjectMapping: 0.008980 ms MarkObjects: 0.097499 ms  DeleteObjects: 0.009835 ms)
+
+30
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Failed to store screen shot
+ 
+(Filename:  Line: 239)
+

@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Drawing.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GameMech.cs" />
+     <Compile Include="Assets\Scripts\LineCreate.cs" />
      <Compile Include="Assets\Scripts\MouseFollow.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
  <Reference Include="UnityEngine.UI">
